@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>FlavourGraph Recipe Navigator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <style>
+        /* Base styling */
+        body {
+            background-color: #0b132b; /* deep navy */
+            color: #ffffff;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Container fade in */
+        .container {
+            animation: fadeInSlideUp 0.8s ease forwards;
+            opacity: 0;
+            transform: translateY(30px);
+            margin-top: 3rem;
+            max-width: 640px;
+        }
+
+        /* Header style */
+        h1 {
+            font-weight: 700;
+            text-align: center;
+            color: #f64c72; /* vibrant coral */
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            animation: fadeIn 1s ease forwards;
+            text-shadow: 1px 1px 4px #700017;
+        }
+
+        /* Input and button styling */
+        input.form-control {
+            border: 2px solid #f64c72;
+            padding: 12px 18px;
+            border-radius: 12px;
+            transition: border-color 0.3s ease;
+            background-color: #1c1f4a;
+            color: #fff;
+        }
+        input.form-control::placeholder {
+            color: #e3cdd2;
+        }
+        input.form-control:focus {
+            border-color: #ff758f;
+            box-shadow: 0 0 8px rgba(246, 76, 114, 0.7);
+            background-color: #282c6e;
+            outline: none;
+            color: #fff;
+        }
+
+        button.btn-primary {
+            background-color: #f64c72;
+            border: none;
+            border-radius: 12px;
+            padding: 10px 28px;
+            font-weight: 600;
+            letter-spacing: 0.8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 15px rgba(246, 76, 114, 0.6);
+            color: #fff;
+        }
+        button.btn-primary:hover {
+            background-color: #ff758f;
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(255, 117, 143, 0.7);
+        }
+
+        /* Saved recipes list styling */
+        .saved-recipes {
+            background: #19244a;
+            padding: 20px;
+            border-radius: 14px;
+            box-shadow: 0 6px 20px rgba(246, 76, 114, 0.4);
+            margin-top: 3rem;
+            animation: fadeIn 1.2s ease forwards;
+        }
+
+        .saved-recipes h3 {
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #ff758f;
+            text-shadow: 0 0 5px #ff758f;
+        }
+
+        .saved-recipes ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .saved-recipes li {
+            margin-bottom: 12px;
+        }
+        .saved-recipes li a {
+            color: #f64c72;
+            font-weight: 500;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .saved-recipes li a:hover {
+            color: #ff758f;
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInSlideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FlavourGraph Recipe Navigator</h1>
+        <form action="{{ url_for('suggest_recipes') }}" method="post" class="mb-4">
+            <label for="ingredients" class="form-label fw-semibold">Enter ingredients (comma separated):</label>
+            <input type="text" name="ingredients" id="ingredients" class="form-control" placeholder="e.g. potato, tomato, oil" required/>
+            <button type="submit" class="btn btn-primary mt-3">Find Recipes</button>
+        </form>
+
+        {% if saved_recipes %}
+        <div class="saved-recipes">
+            <h3>Saved Recipes</h3>
+            <ul>
+                {% for recipe_name in saved_recipes %}
+                <li><a href="{{ url_for('recipe_detail', name=recipe_name) }}">{{ recipe_name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

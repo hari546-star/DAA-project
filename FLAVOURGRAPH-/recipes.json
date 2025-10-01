@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Veg Biryani",
+    "ingredient_details": [
+      { "name": "rice", "quantity": "1 cup" },
+      { "name": "mixed vegetables (carrot, beans, peas, cauliflower)", "quantity": "1 cup" },
+      { "name": "yogurt", "quantity": "1/2 cup" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "tomato", "quantity": "1 medium" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "mint leaves", "quantity": "10 leaves" },
+      { "name": "coriander leaves", "quantity": "10 leaves" },
+      { "name": "biryani masala", "quantity": "2 tbsp" },
+      { "name": "turmeric powder", "quantity": "1 tsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "ghee", "quantity": "2 tbsp" },
+      { "name": "water", "quantity": "as needed" }
+    ],
+    "making_process": "First, take a non-stick pan and heat the oil. Add ginger garlic paste and sauté it until fragrant. Then add sliced onions and cook until golden brown. Add the mixed vegetables and sauté for 5 minutes. Add yogurt and biryani masala along with turmeric, red chili powder, and salt. Mix everything well. Now add soaked rice and enough water to cook. Cover and cook on low flame until the rice and vegetables are tender. Finally, garnish with mint and coriander leaves and serve hot.",
+    "cuisine": "North Indian",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/veg_biryani.png"
+  },
+  {
+    "name": "Chicken Biryani",
+    "ingredient_details": [
+      { "name": "chicken", "quantity": "1 kg" },
+      { "name": "basmati rice", "quantity": "2 cups" },
+      { "name": "onion", "quantity": "2 large" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "3 tbsp" },
+      { "name": "yogurt", "quantity": "1 cup" },
+      { "name": "mint leaves", "quantity": "15 leaves" },
+      { "name": "coriander leaves", "quantity": "15 leaves" },
+      { "name": "biryani masala", "quantity": "2 tbsp" },
+      { "name": "turmeric powder", "quantity": "1 tsp" },
+      { "name": "red chili powder", "quantity": "1 tbsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "ghee", "quantity": "2 tbsp" },
+      { "name": "oil", "quantity": "4 tbsp" },
+      { "name": "water", "quantity": "as needed" }
+    ],
+    "making_process": "Begin by marinating the chicken with yogurt and spices for one hour. Heat oil in a pan, add sliced onions and fry till golden brown. Add ginger garlic paste and cook for a minute. Add the marinated chicken and cook until tender. Add chopped tomatoes and mix well. In a separate pot, parboil the basmati rice. Layer the cooked chicken and rice in a heavy-bottomed pot, add mint and coriander leaves. Cover and cook on low flame for 30 minutes. Serve hot garnished with fried onions.",
+    "cuisine": "Mughlai",
+    "prep_time": "50 mins",
+    "image_url": "/static/images/chicken_biryani.jpg"
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "ingredient_details": [
+      { "name": "paneer", "quantity": "200 g" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "3 large" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "butter", "quantity": "3 tbsp" },
+      { "name": "cream", "quantity": "1/4 cup" },
+      { "name": "kasuri methi", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" }
+    ],
+    "making_process": "Sauté onions and tomatoes, blend into paste. Heat butter, fry ginger garlic paste, add tomato-onion paste, chili powder, and garam masala. Add paneer cubes, cream, kasuri methi. Cook until creamy. Serve with naan or rice.",
+    "cuisine": "North Indian",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/paneer_butter_masala.jpg"
+  },
+  {
+    "name": "Pesarattu (Green Gram Dosa)",
+    "ingredient_details": [
+      { "name": "green gram (moong dal)", "quantity": "1 cup soaked overnight" },
+      { "name": "ginger", "quantity": "1 inch" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "onion", "quantity": "1 medium chopped" },
+      { "name": "curry leaves", "quantity": "6" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil", "quantity": "as needed" }
+    ],
+    "making_process": "Grind soaked green gram, ginger, and chili into a smooth batter. Add salt. Heat a tawa, spread batter like dosa, sprinkle onions, and drizzle oil. Cook till crisp. Serve hot with chutney.",
+    "cuisine": "Andhra",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/pesarattu.jpg"
+  },
+  {
+    "name": "Idli Sambhar",
+    "ingredient_details": [
+      { "name": "idli rice", "quantity": "2 cups" },
+      { "name": "urad dal", "quantity": "1 cup" },
+      { "name": "tamarind", "quantity": "lemon-sized" },
+      { "name": "toor dal", "quantity": "1/2 cup" },
+      { "name": "sambhar powder", "quantity": "2 tbsp" },
+      { "name": "drumstick", "quantity": "1" },
+      { "name": "onion", "quantity": "1 medium" }
+    ],
+    "making_process": "Soak rice and urad dal, grind and ferment batter. Steam idlis. Cook toor dal with turmeric, prepare tamarind extract, add vegetables and sambhar powder, boil. Mix with dal. Serve with hot idlis.",
+    "cuisine": "South Indian",
+    "prep_time": "10 hrs (fermentation)",
+    "image_url": "/static/images/idli_sambar.webp"
+  },
+  {
+    "name": "Vegetable Potato Curry",
+    "ingredient_details": [
+      { "name": "potato", "quantity": "2 medium, peeled and chopped" },
+      { "name": "carrot", "quantity": "1 medium, chopped" },
+      { "name": "green beans", "quantity": "1/2 cup, chopped" },
+      { "name": "peas", "quantity": "1/2 cup" },
+      { "name": "onion", "quantity": "1 medium, chopped" },
+      { "name": "tomato", "quantity": "1 medium, chopped" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "curry powder", "quantity": "1 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/4 tsp" },
+      { "name": "red chili powder", "quantity": "1/2 tsp" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, sauté onions, ginger garlic paste until aromatic. Add tomatoes and spices, cook till oil separates. Add potatoes, carrots, beans, and peas, mix well. Add water, cover and simmer till vegetables are tender. Serve hot.",
+    "cuisine": "Indian",
+    "prep_time": "40 minutes",
+    "image_url": "/static/images/vegetable_potato_curry.webp"
+  },
+  {
+    "name": "Brinjal Curry",
+    "ingredient_details": [
+      { "name": "brinjal (eggplant)", "quantity": "2 medium, chopped" },
+      { "name": "onion", "quantity": "1 large, chopped" },
+      { "name": "tomato", "quantity": "1 medium, chopped" },
+      { "name": "tamarind paste", "quantity": "1 tbsp" },
+      { "name": "mustard seeds", "quantity": "1 tsp" },
+      { "name": "fenugreek seeds", "quantity": "1/4 tsp" },
+      { "name": "curry leaves", "quantity": "few" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/4 tsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, add mustard and fenugreek seeds, let splutter. Add curry leaves and onions, sauté until golden. Add tomatoes and spices, cook till oil separates. Add brinjal and tamarind paste, mix well. Cover and cook till brinjal is tender. Serve with rice.",
+    "cuisine": "South Indian",
+    "prep_time": "45 minutes",
+    "image_url": "/static/images/brinjal_curry.webp"
+  },
+  {
+    "name": "Chicken Curry",
+    "ingredient_details": [
+      { "name": "chicken", "quantity": "1 kg, cut into pieces" },
+      { "name": "onion", "quantity": "2 large, chopped" },
+      { "name": "tomato", "quantity": "2 medium, chopped" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "coriander powder", "quantity": "1 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "cumin seeds", "quantity": "1 tsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "water", "quantity": "as needed" }
+    ],
+    "making_process": "Heat oil, add cumin seeds. Sauté onions and ginger garlic paste until golden. Add tomatoes and spices, cook till oil separates. Add chicken pieces, salt and water. Cover and cook till chicken is done and gravy thickens. Finish with garam masala. Serve hot with rice or roti.",
+    "cuisine": "Indian",
+    "prep_time": "1 hour",
+    "image_url": "/static/images/chicken_curry.webp"
+  },
+  {
+    "name": "Mutton Curry",
+    "ingredient_details": [
+      { "name": "mutton", "quantity": "1 kg, cut into pieces" },
+      { "name": "onion", "quantity": "2 large, finely chopped" },
+      { "name": "tomato", "quantity": "2 medium, chopped" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "coriander powder", "quantity": "1 tbsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "cumin seeds", "quantity": "1 tsp" },
+      { "name": "oil", "quantity": "4 tbsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "water", "quantity": "as required" }
+    ],
+    "making_process": "Heat oil, add cumin seeds. Sauté onions and ginger garlic paste till golden brown. Add tomatoes and spices, cook till oil separates. Add mutton, salt and water. Cook covered on low heat till mutton is tender and curry thickens. Add garam masala before serving. Serve hot with rice or roti.",
+    "cuisine": "Indian",
+    "prep_time": "2 hours",
+    "image_url": "/static/images/mutton_curry.webp"
+  }
+]
